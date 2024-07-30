@@ -1,0 +1,46 @@
+.ozgs-header {
+    &__top-bar {
+        @apply bg-ozgsDarkGreen text-white;
+
+        &--wrapper {
+            @include container-wrapper;
+            @apply flex justify-between;
+            padding: 1rem 0;
+        }
+
+        &--left ul,
+        &--right ul {
+            @apply flex gap-8;
+
+            a {
+                @apply underline;
+            }
+            
+            a:hover {
+                @apply text-ozgsYellow;
+            }
+        }
+
+        b {
+            @apply text-ozgsYellow;
+        }
+    }
+
+    &__navigation {
+        @apply bg-ozgsLightGreen;
+
+        &--wrapper {
+            @include container-wrapper;
+            @apply flex justify-between items-center;
+            padding: 1rem 0;
+        }
+    }
+
+    &__nav-menu ul {
+        @apply flex gap-8;
+
+        a {
+            @apply text-lg text-pink-600 font-mono;
+        }
+    }
+}

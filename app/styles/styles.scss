@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./breakpoints";
+@import "./colors";
+@import "./mixins";
+
+@import "../components/header/header";
