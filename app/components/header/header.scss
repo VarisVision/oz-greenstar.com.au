@@ -40,7 +40,12 @@
         @apply flex gap-8;
 
         a {
-            @apply text-lg text-pink-600 font-mono;
+            @apply text-xl text-ozgsGreen;
+            @include boldPrimary();
+        }
+
+        a:hover {
+            @apply text-ozgsYellow;
         }
     }
 }

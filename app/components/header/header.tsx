@@ -16,25 +16,32 @@ export default function Header() {
                 <nav className="ozgs-header__nav-menu">
                     <ul>
                         <li>
-                            Home
+                            <a href="">
+                                <span className="link-underline link-underline-black">Home</span>
+                            </a>
                         </li>
                         <li>
-                            About Us
+                            <a href="">
+                                <span className="link-underline link-underline-black">About Us</span>
+                            </a>
                         </li>
                         <li>
-                            Services
+                            <a href="">
+                                <span className="link-underline link-underline-black">Services</span>
+                            </a>
                         </li>
                         <li>
-                            Gallery
+                            <a href="">
+                                <span className="link-underline link-underline-black">Gallery</span>
+                            </a>
                         </li>
                         <li>
-                            Contact
+                            <a href="">
+                                <span className="link-underline link-underline-black">Contact</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>
-                <div className="ozgs-header-right">
-                    <a>BOOK NOW</a>
-                </div>
             </div>
         </div>
       </header>
