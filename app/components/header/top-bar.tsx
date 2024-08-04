@@ -6,8 +6,8 @@ export default function TopBar() {
                     <ul>
                         <li>
                             <i></i>
-                            <b>Location: </b>
-                            <a href="google business page">Western Sydney</a>
+                            <b>Phone: </b>
+                            <a href="tel:+61404236250">404236250</a>
                         </li>
                         <li>
                             <i></i>
@@ -16,8 +16,8 @@ export default function TopBar() {
                         </li>
                         <li>
                             <i></i>
-                            <b>Phone: </b>
-                            <a href="tel:+61404236250">404236250</a>
+                            <b>Location: </b>
+                            <a href="google business page">Western Sydney</a>
                         </li>
                     </ul>
                 </div>

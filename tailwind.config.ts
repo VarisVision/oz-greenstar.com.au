@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -12,7 +13,8 @@ const config: Config = {
         "ozgsYellow": "#F0C62B",
         "ozgsGreen": "#006128",
         "ozgsDarkGreen": "#003A17",
-        "ozgsLightGreen": "#dcffe1"
+        "ozgsLightGreen": "#dcffe1",
+        "blackHalf": "rgba(0, 0, 0, .5)"
       }
     },
   },
