@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         "ozgsYellow": "#F0C62B",
+        "ozgsLightYellow": "#ffffc5",
         "ozgsGreen": "#006128",
         "ozgsDarkGreen": "#003A17",
         "ozgsLightGreen": "#dcffe1",

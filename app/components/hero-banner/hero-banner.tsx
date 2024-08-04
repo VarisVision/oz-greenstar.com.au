@@ -22,7 +22,9 @@ export default function HeroBanner() {
                     <div className="ozgs-hero-banner__text">
                         <h1>OZ green star Landscaping in Sydney Area</h1>
                         <p>Residential & Commercial</p>
-                        <a href="">Explore More</a>
+                        <a href="">
+                            Explore more
+                        </a>
                     </div>
                 </div>
             </div>
