@@ -14,6 +14,7 @@ const config: Config = {
         "ozgsLightYellow": "#ffffc5",
         "ozgsGreen": "#006128",
         "ozgsDarkGreen": "#003A17",
+        "ozgsLightDarkGreen": "#e7eceb",
         "ozgsLightGreen": "#dcffe1",
         "blackHalf": "rgba(0, 0, 0, .5)"
       }

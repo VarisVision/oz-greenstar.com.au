@@ -1,0 +1,22 @@
+.ozgs-headline-text {
+    @include section-spacing;
+    @apply text-center;
+
+    &__wrapper {
+        @include container-wrapper;
+    }
+
+    span {
+        @include boldPrimary();
+        @apply text-ozgsGreen text-3xl;
+    }
+
+    h2 {
+        @apply text-4xl uppercase text-ozgsDarkGreen;
+        margin: 1.5rem 0;
+    }
+
+    p {
+        @apply text-lg lg:text-xl max-w-[750px] m-auto;
+    }
+}

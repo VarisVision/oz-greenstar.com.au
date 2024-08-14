@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Beautiful Garden",
+      "imageUrl": "/images/IMG_2478.JPG"
+    },
+    {
+      "id": 2,
+      "title": "Lush Green Lawn",
+      "imageUrl": "/images/IMG_2886.JPG"
+    },
+    {
+      "id": 3,
+      "title": "Flower Bed",
+      "imageUrl": "/images/IMG_3241.JPG"
+    },
+    {
+      "id": 3,
+      "title": "Fencing",
+      "imageUrl": "/images/IMG_2895.JPG"
+    },
+    {
+      "id": 1,
+      "title": "Beautiful Garden",
+      "imageUrl": "/images/IMG_2478.JPG"
+    },
+    {
+      "id": 2,
+      "title": "Lush Green Lawn",
+      "imageUrl": "/images/IMG_2886.JPG"
+    },
+    {
+      "id": 3,
+      "title": "Flower Bed",
+      "imageUrl": "/images/IMG_3241.JPG"
+    },
+    {
+      "id": 3,
+      "title": "Fencing",
+      "imageUrl": "/images/IMG_2895.JPG"
+    }
+]

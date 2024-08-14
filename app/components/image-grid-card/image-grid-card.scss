@@ -1,0 +1,41 @@
+.ozgs-image-grid-card {
+    @include section-spacing;
+
+    &__wrapper {
+        @include container-wrapper;
+    }
+
+    &__grid {
+        @apply flex flex-wrap gap-8;
+    }
+
+    &__grid-item {
+        @apply w-full md:w-[calc(50%-1.1rem)] lg:w-[calc(33%-1.17rem)] xl:w-[calc(25%-1.5rem)];
+
+        img {
+            @apply w-full h-[250px] object-cover;
+            border-radius: 1rem 1rem 0 0;
+        }
+
+        &--content {
+            @apply bg-ozgsLightDarkGreen;
+            padding: 0 1.5rem 1.5rem;
+            border-radius: 0 0 1rem 1rem;
+
+            .badge {
+                @apply relative w-16 h-16 bg-white;
+                margin: -2rem 0 1rem auto;
+                border-radius: 1rem;
+            }
+
+            h3 {
+                @include boldPrimary();
+                @apply text-ozgsGreen text-3xl;
+            }
+
+            p {
+                @apply text-lg lg:text-xl
+            }
+        }
+    }
+}
