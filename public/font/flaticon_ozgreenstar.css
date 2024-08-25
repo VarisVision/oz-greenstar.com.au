@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "flaticon_ozgreenstar";
+    src: url("./flaticon_ozgreenstar.woff2?b55ee37e4dff9819c345e545c8ee8bae") format("woff2"),
+url("./flaticon_ozgreenstar.woff?b55ee37e4dff9819c345e545c8ee8bae") format("woff"),
+url("./flaticon_ozgreenstar.eot?b55ee37e4dff9819c345e545c8ee8bae#iefix") format("embedded-opentype"),
+url("./flaticon_ozgreenstar.ttf?b55ee37e4dff9819c345e545c8ee8bae") format("truetype"),
+url("./flaticon_ozgreenstar.svg?b55ee37e4dff9819c345e545c8ee8bae#flaticon_ozgreenstar") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_ozgreenstar !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-park:before {
+    content: "\f101";
+}
+.flaticon-gardening:before {
+    content: "\f102";
+}
+.flaticon-trimming:before {
+    content: "\f103";
+}
+.flaticon-gardening-tools:before {
+    content: "\f104";
+}
+.flaticon-sprinkle:before {
+    content: "\f105";
+}
+.flaticon-fence:before {
+    content: "\f106";
+}
+.flaticon-raised-bed:before {
+    content: "\f107";
+}
+.flaticon-paving:before {
+    content: "\f108";
+}
+.flaticon-grass:before {
+    content: "\f109";
+}

@@ -5,6 +5,7 @@ interface ImageData {
     id: number;
     title: string;
     imageUrl: string;
+    icon: string;
   }
 
 interface ImageGridCardProps {
@@ -21,7 +22,7 @@ const imageGridCard: React.FC<ImageGridCardProps> = ({ data = [] }) => {
                             <Image src={item.imageUrl} alt={item.title} width={290} height={250}/>
                             <div key={item.id} className="ozgs-image-grid-card__grid-item--content">
                                 <div className="badge">
-                                    <i></i>
+                                    <i className={item.icon}></i>
                                 </div>
                                 <h3>{item.title}</h3>
                                 <p>here generate two line text about service</p>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "./components/header/header";
 import "./styles/styles.scss";
+import "../public/font/flaticon_ozgreenstar.css"
 
 export const metadata: Metadata = {
   title: "OZ Green Star Landscaping",

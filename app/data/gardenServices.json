@@ -1,42 +1,50 @@
 [
     {
       "id": 1,
-      "title": "Beautiful Garden",
-      "imageUrl": "/images/IMG_2478.JPG"
+      "title": "Trimming",
+      "imageUrl": "/images/IMG_2478.JPG",
+      "icon": "flaticon-trimming"
     },
     {
       "id": 2,
-      "title": "Lush Green Lawn",
-      "imageUrl": "/images/IMG_2886.JPG"
-    },
-    {
-      "id": 3,
-      "title": "Flower Bed",
-      "imageUrl": "/images/IMG_3241.JPG"
+      "title": "Landscape Design",
+      "imageUrl": "/images/IMG_2886.JPG",
+      "icon": "flaticon-park"
     },
     {
       "id": 3,
       "title": "Fencing",
-      "imageUrl": "/images/IMG_2895.JPG"
+      "imageUrl": "/images/IMG_3241.JPG",
+      "icon": "flaticon-fence"
     },
     {
-      "id": 1,
-      "title": "Beautiful Garden",
-      "imageUrl": "/images/IMG_2478.JPG"
+      "id": 4,
+      "title": "Retailing Wall",
+      "imageUrl": "/images/IMG_2895.JPG",
+      "icon": "flaticon-raised-bed"
     },
     {
-      "id": 2,
-      "title": "Lush Green Lawn",
-      "imageUrl": "/images/IMG_2886.JPG"
+      "id": 5,
+      "title": "Paving",
+      "imageUrl": "/images/IMG_2478.JPG",
+      "icon": "flaticon-paving"
     },
     {
-      "id": 3,
-      "title": "Flower Bed",
-      "imageUrl": "/images/IMG_3241.JPG"
+      "id": 6,
+      "title": "Irrigation",
+      "imageUrl": "/images/IMG_2886.JPG",
+      "icon": "flaticon-sprinkle"
     },
     {
-      "id": 3,
-      "title": "Fencing",
-      "imageUrl": "/images/IMG_2895.JPG"
+      "id": 7,
+      "title": "Maintenace",
+      "imageUrl": "/images/IMG_3241.JPG",
+      "icon": "flaticon-gardening-tools"
+    },
+    {
+      "id": 8,
+      "title": "Drive Way",
+      "imageUrl": "/images/IMG_2895.JPG",
+      "icon": "flaticon-gardening"
     }
 ]
