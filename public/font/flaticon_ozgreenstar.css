@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon_ozgreenstar";
-    src: url("./flaticon_ozgreenstar.woff2?b55ee37e4dff9819c345e545c8ee8bae") format("woff2"),
-url("./flaticon_ozgreenstar.woff?b55ee37e4dff9819c345e545c8ee8bae") format("woff"),
-url("./flaticon_ozgreenstar.eot?b55ee37e4dff9819c345e545c8ee8bae#iefix") format("embedded-opentype"),
-url("./flaticon_ozgreenstar.ttf?b55ee37e4dff9819c345e545c8ee8bae") format("truetype"),
-url("./flaticon_ozgreenstar.svg?b55ee37e4dff9819c345e545c8ee8bae#flaticon_ozgreenstar") format("svg")
+    src: url("./flaticon_ozgreenstar.woff2?45f7a6d9052df131bd0d4451351cff9f") format("woff2"),
+url("./flaticon_ozgreenstar.woff?45f7a6d9052df131bd0d4451351cff9f") format("woff"),
+url("./flaticon_ozgreenstar.eot?45f7a6d9052df131bd0d4451351cff9f#iefix") format("embedded-opentype"),
+url("./flaticon_ozgreenstar.ttf?45f7a6d9052df131bd0d4451351cff9f") format("truetype"),
+url("./flaticon_ozgreenstar.svg?45f7a6d9052df131bd0d4451351cff9f#flaticon_ozgreenstar") format("svg")
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -45,3 +45,19 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-grass:before {
     content: "\f109";
 }
+.flaticon-telephone:before {
+    content: "\f10a";
+}
+.flaticon-location:before {
+    content: "\f10b";
+}
+.flaticon-facebook:before {
+    content: "\f10c";
+}
+.flaticon-instagram:before {
+    content: "\f10d";
+}
+.flaticon-email:before {
+    content: "\f10e";
+}
+
