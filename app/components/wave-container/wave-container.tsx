@@ -13,7 +13,9 @@ const WaveContainer: React.FC<ContainerProps> = ({ children }) => {
                 <Image className="ozgs-wave-container__wave" src={BannerWaveOne} alt="banner wave animation"/>
             </div>
             <div className="ozgs-wave-container__content">
-                {children}
+                <div className="ozgs-wave-container__content-wrapper">
+                    {children}
+                </div>
             </div>
             <div className="ozgs-wave-container__lower-wave">
                 <Image className="ozgs-wave-container__wave" src={BannerWaveOne} alt="banner wave animation"/>

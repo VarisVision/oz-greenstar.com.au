@@ -1,6 +1,7 @@
 .ozgs-wave-container {
 
     &__upper-wave {
+        @apply relative -z-10;
         transform: rotate(180deg);
     }
 
@@ -10,5 +11,9 @@
 
     &__content, .ozgs-headline-text {
         @apply bg-ozgsLightDarkGreen;
+    }
+
+    &__content-wrapper {
+        @include container-wrapper;
     }
 }
