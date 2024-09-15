@@ -1,5 +1,6 @@
 .ozgs-image-grid-card {
     @include section-spacing;
+    @apply pt-0;
 
     &__wrapper {
         @include container-wrapper;
