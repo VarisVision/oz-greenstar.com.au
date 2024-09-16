@@ -1,0 +1,32 @@
+[
+    {
+        "title": [
+            {
+                "subTitle": "Expert Answers to Your Landscaping Questions",
+                "title": "Frequently Asked Questions"
+            }
+        ],
+        "accordionItems": [
+            { 
+                "title": "Why choose OZ GreenStar Landscaping for fencing and retaining walls?", 
+                "content": "Find out how our high-quality fencing and retaining wall solutions can provide security, privacy, and structural support for your property." 
+            },
+            { 
+                "title": "How does OZ GreenStar Landscaping ensure efficient garden irrigation and maintenance?", 
+                "content": "Learn about our advanced irrigation systems and regular maintenance services that keep your garden healthy, lush, and well-maintained throughout the year." 
+            },
+            { 
+                "title": "How does professional trimming improve my garden’s health and appearance?", 
+                "content": "Discover the benefits of regular trimming for your plants and trees, including improved growth, better aesthetics, and disease prevention." 
+            },
+            {
+                "title": "What are the benefits of installing a retaining wall on my property?",
+                "content": "Find out how retaining walls can prevent soil erosion, manage water runoff, and add a unique architectural element to your landscape."
+            },
+            {
+                "title": "What materials do you use for fencing projects?",
+                "content": "At OZ GreenStar Landscaping, we specialize in high-quality metal fencing. Metal fences are known for their durability, strength, and low maintenance. They provide excellent security and can withstand harsh weather conditions, making them a long-lasting investment for your property."
+            }
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+.ozgs-accordion {
+  @include section-spacing;
+  @apply w-full max-w-2xl mx-auto pt-0;
+
+  &__item {
+    @apply border-b border-gray-300;
+
+    &:last-child {
+      @apply border-0;
+    }
+
+    &:first-child .ozgs-accordion__title {
+      border-radius: 1rem 1rem 0 0;
+    }
+
+    &:last-child .ozgs-accordion__title {
+      border-radius: 0 0 1rem 1rem;
+
+      &.open {
+        border-radius: 0 0;
+      }
+    }
+  }
+  
+  &__title {
+    @apply bg-ozgsLightDarkGreen flex justify-between gap-4 items-center p-4 w-full text-left transition-colors duration-300 hover:bg-ozgsLightGreen;
+  
+  }
+
+  &__arrow {
+    @apply transform transition-transform duration-300 w-4 h-4;
+  }
+  
+  &__content {
+    @apply overflow-hidden;
+    transition: max-height 0.3s ease;
+
+    p {
+      @apply p-4 m-0;
+    }
+
+    .open {
+      @apply max-h-52;
+    }
+  }
+}
