@@ -1,5 +1,4 @@
 .ozgs-wave-container {
-
     &__upper-wave {
         @apply relative -z-10;
         transform: rotate(180deg);
@@ -15,5 +14,9 @@
 
     &__content-wrapper {
         @include container-wrapper;
+    }
+
+    .ozgs-headline-text {
+        @apply pt-0;
     }
 }

@@ -1,6 +1,5 @@
 .ozgs-accordion {
-  @include section-spacing;
-  @apply w-full max-w-2xl mx-auto pt-0;
+  @apply w-full max-w-2xl mx-auto pb-12;
 
   &__item {
     @apply border-b border-gray-300;

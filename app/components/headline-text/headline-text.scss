@@ -1,6 +1,6 @@
 .ozgs-headline-text {
-    @include section-spacing;
     @apply text-center;
+    padding: 3rem 1.125rem 1.5rem;
 
     &__wrapper {
         @include container-wrapper;
@@ -17,6 +17,6 @@
     }
 
     p {
-        @apply text-lg lg:text-xl max-w-[750px] m-auto;
+        @apply text-lg lg:text-xl max-w-[750px] m-auto mb-6;
     }
 }

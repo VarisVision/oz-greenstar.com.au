@@ -1,6 +1,5 @@
 .ozgs-image-grid-card {
-    @include section-spacing;
-    @apply pt-0;
+    padding: 0 1.125rem 4.5rem;
 
     &__wrapper {
         @include container-wrapper;

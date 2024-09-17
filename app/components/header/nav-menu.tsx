@@ -13,17 +13,17 @@ export default function NavMenu({isOpen}: NavMenuProps) {
             </li>
             <li>
                 <a href="">
-                    <span className="link-underline link-underline-black">About Us</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
                     <span className="link-underline link-underline-black">Services</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <span className="link-underline link-underline-black">Gallery</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span className="link-underline link-underline-black">Faq</span>
                 </a>
             </li>
             <li>
