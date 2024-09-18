@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import Image from "next/image";
-import BannerWaveOne from "../../../public/images/waves/bg.png";
+import BannerWaveOne from "../../../public/images/waves/wave-bottom-2.png";
 
 interface ContainerProps {
   children: ReactNode;

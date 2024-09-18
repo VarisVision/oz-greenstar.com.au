@@ -1,4 +1,7 @@
 .ozgs-wave-container {
+    &__upper-wave img, &__lower-wave img {
+        @apply h-12 md:h-24;
+    }
     &__upper-wave {
         @apply relative -z-10;
         transform: rotate(180deg);
@@ -17,6 +20,6 @@
     }
 
     .ozgs-headline-text {
-        @apply pt-0;
+        @apply pt-8;
     }
 }

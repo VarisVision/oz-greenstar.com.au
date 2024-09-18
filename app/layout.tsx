@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Header from "./components/header/header";
 import "./styles/styles.scss";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
 export const metadata: Metadata = {
   title: "OZ Green Star Landscaping",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className="ozgs">
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import BannerWave from "../../../public/images/waves/bg-2.png";
-import BannerWaveOne from "../../../public/images/waves/bg.png";
+import BannerWave from "../../../public/images/waves/wave-bottom-1.png";
+import BannerWaveOne from "../../../public/images/waves/wave-bottom-2.png";
 import bg from "../../../public/images/colorful-flower-garden.jpg";
 
 export default function HeroBanner() {

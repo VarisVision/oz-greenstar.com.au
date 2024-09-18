@@ -1,14 +1,11 @@
-import Banner from "./components/hero-banner/hero-banner";
-import HeadlineText from "./components/headline-text/headline-text";
-import ImageGridCard from "./components/image-grid-card/image-grid-card";
-
-import { EmblaOptionsType } from 'embla-carousel'
-
 import intro from "./data/homepageIntro.json";
 import gardenServices from "./data/gardenServices.json";
 import carouselHeadline from "./data/carouselHeadline.json";
 import faqAccordion from "./data/faqAccordion.json";
 
+import Banner from "./components/hero-banner/hero-banner";
+import HeadlineText from "./components/headline-text/headline-text";
+import ImageGridCard from "./components/image-grid-card/image-grid-card";
 import WaveContainer from "./components/wave-container/wave-container";
 import FocusedCarousel from "./components/focused-carousel/focused-carousel";
 import Accordion from "./components/accordion/accordion";

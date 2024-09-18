@@ -16,7 +16,8 @@ const config: Config = {
         "ozgsDarkGreen": "#003A17",
         "ozgsLightDarkGreen": "#e7eceb",
         "ozgsLightGreen": "#dcffe1",
-        "blackHalf": "rgba(0, 0, 0, .5)"
+        "blackHalf": "rgba(0, 0, 0, .5)",
+        "varisVision": "#93824e"
       }
     },
   },

@@ -1,0 +1,16 @@
+.ozgs-footer {
+    &__container {
+        @apply bg-ozgsDarkGreen text-white;
+        padding: 0 1.125rem;
+    }
+
+    &__wrapper {
+        @include container-wrapper;
+        @apply flex flex-col md:flex-row justify-between items-center;
+        padding: 1rem 0;
+    }
+
+    .varis-vision a {
+        @apply hover:text-varisVision;
+    }
+}

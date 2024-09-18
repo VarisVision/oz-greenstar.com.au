@@ -1,5 +1,6 @@
 .ozgs-accordion {
   @apply w-full max-w-2xl mx-auto pb-12;
+  padding: 0 1.125rem 3rem;
 
   &__item {
     @apply border-b border-gray-300;

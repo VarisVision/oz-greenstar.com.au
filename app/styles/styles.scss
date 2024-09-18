@@ -4,15 +4,16 @@
 
 @import "./breakpoints";
 @import "./colors";
-@import "./fonts.scss";
+@import "./fonts";
 @import "./mixins";
 
-@import "../Components/accordion/accordion";
+@import "../components/accordion/accordion";
+@import "../components/focused-carousel/focused-carousel";
+@import "../components/footer/footer";
 @import "../components/header/header";
 @import "../components/headline-text/headline-text";
 @import "../components/hero-banner/hero-banner";
 @import "../components/image-grid-card/image-grid-card";
 @import "../components/wave-container/wave-container";
-@import "../components/focused-carousel/focused-carousel";
 
 @import "../../public/font/flaticon_ozgreenstar.css";
